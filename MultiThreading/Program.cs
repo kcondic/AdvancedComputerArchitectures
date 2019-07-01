@@ -28,9 +28,9 @@ namespace MultiThreading
                 {
                     var tempJ = j;
                     var ofThreads = numberOfThreads;
-                    threads.Add(new Thread(() => Interlocked.Add(ref sum, CalculateSum(array.Skip(tempJ * array.Length / ofThreads).Take(array.Length/ofThreads)))));
+                    threads.Add(new Thread(() => Interlocked.Add(ref sum, CalculateSum(array.Skip(tempJ * array.Length / ofThreads).Take(array.Length / ofThreads)))));
                 }
-                foreach(var thread in threads)
+                foreach (var thread in threads)
                     thread.Start();
                 foreach (var thread in threads)
                     thread.Join();

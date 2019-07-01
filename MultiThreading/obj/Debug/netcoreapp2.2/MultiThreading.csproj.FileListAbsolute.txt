@@ -1,0 +1,11 @@
+C:\Users\Kreso\source\repos\MultiThreading\MultiThreading\bin\Debug\netcoreapp2.2\MultiThreading.deps.json
+C:\Users\Kreso\source\repos\MultiThreading\MultiThreading\bin\Debug\netcoreapp2.2\MultiThreading.runtimeconfig.json
+C:\Users\Kreso\source\repos\MultiThreading\MultiThreading\bin\Debug\netcoreapp2.2\MultiThreading.runtimeconfig.dev.json
+C:\Users\Kreso\source\repos\MultiThreading\MultiThreading\bin\Debug\netcoreapp2.2\MultiThreading.dll
+C:\Users\Kreso\source\repos\MultiThreading\MultiThreading\bin\Debug\netcoreapp2.2\MultiThreading.pdb
+C:\Users\Kreso\source\repos\MultiThreading\MultiThreading\obj\Debug\netcoreapp2.2\MultiThreading.csprojAssemblyReference.cache
+C:\Users\Kreso\source\repos\MultiThreading\MultiThreading\obj\Debug\netcoreapp2.2\MultiThreading.csproj.CoreCompileInputs.cache
+C:\Users\Kreso\source\repos\MultiThreading\MultiThreading\obj\Debug\netcoreapp2.2\MultiThreading.AssemblyInfoInputs.cache
+C:\Users\Kreso\source\repos\MultiThreading\MultiThreading\obj\Debug\netcoreapp2.2\MultiThreading.AssemblyInfo.cs
+C:\Users\Kreso\source\repos\MultiThreading\MultiThreading\obj\Debug\netcoreapp2.2\MultiThreading.dll
+C:\Users\Kreso\source\repos\MultiThreading\MultiThreading\obj\Debug\netcoreapp2.2\MultiThreading.pdb

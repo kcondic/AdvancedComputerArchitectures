@@ -15,7 +15,7 @@ namespace MultiThreading
             var stopWatch = new Stopwatch();
             var sum = 0;
             var numberOfThreads = 1;
-            var sizeOfArray = 1000000;
+            var sizeOfArray = 100000000;
 
 
             Console.WriteLine("1 thread:");
@@ -159,7 +159,7 @@ namespace MultiThreading
         {
             var array = new int[size];
             var random = new Random();
-            const int maxNumber = 1000;
+            const int maxNumber = 20;
 
             for (var i = 0; i < array.Length; i++)
                 array[i] = random.Next(maxNumber);

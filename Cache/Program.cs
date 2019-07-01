@@ -14,7 +14,7 @@ namespace Cache
             Console.WriteLine("Start");
             for (var size = 256; size <= 64 * 1024 * 1024; size *= 2)
             {
-                Console.Write($"{(float)size/1024} kB ");
+                Console.Write($"{(float)size/256} kB "); //it is 256 because every int has 4 bytes -> 256 * 4 = 1024
                 TryCache(size);
             }
             Console.WriteLine("Done");
@@ -23,7 +23,7 @@ namespace Cache
         static void TryCache(int size)
         {
             var array = new int[size];
-            const int steps = 64 * 1024 * 1024; // 64MB
+            const int steps = 64 * 1024 * 1024; // 256MB
             var stopwatch = new Stopwatch();
 
             stopwatch.Start();
